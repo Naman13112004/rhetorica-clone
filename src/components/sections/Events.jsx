@@ -115,7 +115,7 @@ export default function Events() {
               */}
               <div className="absolute inset-x-4 bottom-8 top-12 rounded-t-[120px] overflow-hidden z-10">
                  <img 
-                    src="src/assets/images/event-section.webp" 
+                    src="assets/images/event-section.webp" 
                     alt="Street Scene" 
                     className="w-full h-full object-cover opacity-90"
                  />
@@ -125,7 +125,7 @@ export default function Events() {
 
               {/* 2. The Archway Frame (Foreground) */}
               <img 
-                src="src/assets/images/window.webp" 
+                src="assets/images/window.webp" 
                 alt="Arch Frame" 
                 className="absolute inset-0 w-full h-full object-contain z-20 pointer-events-none" 
               />
