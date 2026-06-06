@@ -1,0 +1,60 @@
+@import 'tailwindcss';
+
+@layer base {
+    @font-face {
+        font-family: "PirataO1";
+        src: url("src/assets/fonts/font-1.woff2") format("woff2");
+    }
+
+    @font-face {
+        font-family: "PirataO2";
+        src: url("src/assets/fonts/font-2.woff2") format("woff2");
+    }
+
+    @font-face {
+        font-family: "PirataO3";
+        src: url("src/assets/fonts/font-3.woff2") format("woff2");
+    }
+
+    @font-face {
+        font-family: "PirataO4";
+        src: url("src/assets/fonts/font-4.woff2") format("woff2");
+    }
+
+    @font-face {
+        font-family: "PirataO5";
+        src: url("src/assets/fonts/font-5.woff2") format("woff2");
+    }
+
+    @font-face {
+        font-family: "PirataO6";
+        src: url("src/assets/fonts/font-6.woff2") format("woff2");
+    }
+
+    @font-face {
+        font-family: "PirataO7";
+        src: url("src/assets/fonts/font-7.woff2") format("woff2");
+    }
+
+    @font-face {
+        font-family: "PirataO8";
+        src: url("src/assets/fonts/font-8.woff2") format("woff2");
+    }
+
+    @font-face {
+        font-family: "PirataO9";
+        src: url("src/assets/fonts/font-9.woff2") format("woff2");
+    }
+}
+
+@theme {
+    --font-pirata-o1: "PirataO1", sans-serif;
+    --font-pirata-o2: "PirataO2", sans-serif;
+    --font-pirata-o3: "PirataO3", sans-serif;
+    --font-pirata-o4: "PirataO4", sans-serif;
+    --font-pirata-o5: "PirataO5", sans-serif;
+    --font-pirata-o6: "PirataO6", sans-serif;
+    --font-pirata-o7: "PirataO7", sans-serif;
+    --font-pirata-o8: "PirataO8", sans-serif;
+    --font-pirata-o9: "PirataO9", sans-serif;
+}
